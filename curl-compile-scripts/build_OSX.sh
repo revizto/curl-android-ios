@@ -31,7 +31,7 @@ if [ ! -x "$CURLPATH/configure" ]; then
 	fi
 fi
 
-#git apply ../patches/patch_curl_fixes1172.diff
+git apply ../patches/patch_curl_fixes1172.diff
 
 export CC="$XCODE/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang"
 DESTDIR="$SCRIPTPATH/../prebuilt-with-ssl/OSX"
@@ -103,30 +103,6 @@ sed 's/#define CURL_SIZEOF_CURL_OFF_T 8/\
 rm curlbuild.h.temp
 
 cd "$PWD"
-$PWD"
 
-$PWD"
-d.h.temp
 
-cd "$PWD"
-$PWD"
 
-$PWD"
-
-cd "$PWD"
-$PWD"
-
-$PWD"
-cd "$PWD"
-$PWD"
-
-$PWD"
-
-cd "$PWD"
-$PWD"
-
-$PWD"
-
-$PWD"
-
-$PWD"
